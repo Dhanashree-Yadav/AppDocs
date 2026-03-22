@@ -1,0 +1,22 @@
+dashboard -> resources -> new resources
+select DB (postgresql)
+add name
+click on create
+
+
+will get connection details (add those in app)
+Host
+Port
+Database name
+Username
+Password
+
+
+connect app with DB:
+
+GO TO APP SETTINGS -> environment Variables
+
+DB_HOST=your-db-host
+DB_USER=your-user
+DB_PASS=your-password
+DB_NAME=your-db
