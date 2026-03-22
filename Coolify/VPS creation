@@ -12,7 +12,7 @@ step 2:
 On dashboard:
 create server:
 			select below things
-				Location: Germany
+				Location: Singapore
 				Image: Ubuntu 22.04
 				Type: CCX 
 				Volume: default
