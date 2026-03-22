@@ -14,7 +14,7 @@ create server:
 			select below things
 				Location: Singapore
 				Image: Ubuntu 22.04
-				Type: CCX 
+				Type: CPX31 
 				Volume: default
 			Authentication:  SSH key or password
 			create or buy
