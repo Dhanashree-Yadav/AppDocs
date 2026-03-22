@@ -1,0 +1,61 @@
+
+
+get from hetzner VPS:
+
+step 1:
+create Hetzner account
+sign up -> email verification -> add billing
+
+create VPS
+
+step 2:
+On dashboard:
+create server:
+			select below things
+				Location: Germany
+				Image: Ubuntu 22.04
+				Type: CCX 
+				Volume: default
+			Authentication:  SSH key or password
+			create or buy
+
+step 3:
+login to server:
+windows: powershell
+		  command: ssh root@your_server_ip
+            write yes for connecting (first time only)	
+
+
+step 4:
+update the server
+     command: apt update && apt upgrade -y
+ 
+ 
+ 
+step 5:
+install docker (required for coolify)
+apt install -y docker.io
+systemctl start docker
+systemctl enable docker
+
+docker --version
+
+
+step 6:
+install coolify
+
+command : curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
+
+it will automatically setup: docker , coolify installation, start the web panel
+
+
+
+step 7:
+go to browser:
+	http://your_server_ip:8000
+	
+create admin account
+set password
+
+
+
