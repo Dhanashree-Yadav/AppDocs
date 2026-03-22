@@ -1,0 +1,25 @@
+coolify dashboard -> settings ->sources -> add sources -> select Github
+
+2 ways:
+OAuth
+Personal Access token
+
+Recommended:
+--- Login with Github
+--- Authorize github
+--- allow repo access
+
+
+
+deploy website:
+dashboard -> project -> new project
+add resource
+select ---> application
+
+config:
+select github
+choose repo
+select branch
+
+
+build type (coolify will detect automatically)
